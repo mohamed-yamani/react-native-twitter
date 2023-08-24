@@ -1,7 +1,9 @@
 import React from 'react';
 import { Text, View, Image, StyleSheet, SafeAreaView, Button } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 
 export default function Payments () {
+    const navigation = useNavigation();
   return (
     <SafeAreaView style={{flex: 1}}>
         <View style={styles.container}>
